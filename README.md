@@ -34,7 +34,7 @@ Download the `pngfy.py` file directly from the repository.
 ### Basic Usage
 
 ```bash
-python png_validator.py <path_to_file>
+python pngfy.py <path_to_file>
 ```
 
 ### Examples
