@@ -16,13 +16,13 @@ A Python script that validates PNG files by checking their hex signatures and au
 ### Method 1: Clone from GitHub
 
 ```bash
-git clone https://github.com/yourusername/png-validator.git
-cd png-validator
+git clone https://github.com/lithack0/pngfy.git
+cd pngfy
 ```
 
 ### Method 2: Direct Download
 
-Download the `png_validator.py` file directly from the repository.
+Download the `pngfy.py` file directly from the repository.
 
 ### Requirements
 
@@ -41,19 +41,19 @@ python png_validator.py <path_to_file>
 
 ```bash
 # Validate a PNG file
-python png_validator.py image.png
+python pngfy.py image.png
 
 # Works with any file extension (detects PNG by header)
-python png_validator.py suspicious_file.txt
+python pngfy suspicious_file.txt
 
 # Validate and repair a corrupted PNG
-python png_validator.py corrupted_image.png
+python pngfy.py corrupted_image.png
 ```
 
 ### Command Line Help
 
 ```bash
-python png_validator.py
+python pngfy.py
 ```
 
 This will display usage instructions.
@@ -84,7 +84,7 @@ The script validates PNG files using their binary signatures:
 
 ```
 ============================================================
-PNG File Validator and Repairer
+Pngfy
 ============================================================
 Processing file: valid_image.png
 ✅ File identified as PNG by header signature
@@ -103,7 +103,7 @@ Processing file: valid_image.png
 
 ```
 ============================================================
-PNG File Validator and Repairer
+Pngfy
 ============================================================
 Processing file: corrupted_image.png
 ✅ File identified as PNG by header signature
@@ -138,7 +138,7 @@ Processing file: corrupted_image.png
 
 ```
 ============================================================
-PNG File Validator and Repairer
+Pngfy
 ============================================================
 Processing file: document.pdf
 ❌ File is not a PNG file (invalid header signature)
